@@ -26,7 +26,7 @@ const bot = new TelegramBot(config.token, {
 
 // Store application state
 const appState = new Map();
-a
+
 // Available malicious actions
 const availableActions = [
     '✯ 𝙲𝚘𝚗𝚝𝚊𝚌𝚝𝚜 ✯',
