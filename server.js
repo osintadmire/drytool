@@ -18,6 +18,10 @@ const uploader = multer();
 // Load configuration from data.json
 const config = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
 
+
+console.log('Node version:', process.version);
+console.log('Platform:', process.platform, process.arch);
+
 // Initialize Telegram Bot
 const bot = new TelegramBot(config.token, {
     polling: true,
